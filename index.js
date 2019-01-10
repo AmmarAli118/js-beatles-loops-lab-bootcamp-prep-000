@@ -12,7 +12,9 @@ function johnLennonFacts (array) {
   var key = 0
   var newArray = [];
   
-  while (array[key++]) {  }
+  while (array[key++]) {
+    newArray[key] = array[key] + `!!!`;
+  }
   return newArray;
 }
 
