@@ -13,10 +13,10 @@ function johnLennonFacts (array) {
       newArray = [];
   
   while (i > 0) {
-    array[i] = array[i] + `!!!`;
+    newArray[i] = array[i] + `!!!`;
     --i;
   }
-  return array;
+  return newArray;
 }
 
 function iLoveTheBeatles(n) {
