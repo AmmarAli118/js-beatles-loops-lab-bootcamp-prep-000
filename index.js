@@ -9,11 +9,11 @@ function theBeatlesPlay (musicians , instruments) {
 
 function johnLennonFacts (array) {
   
-  var key = 0
+  var i = 0
   var newArray = [];
   
-  while (array[key++]) {
-    newArray[key] = array[key] + `!!!`;
+  while (array[i++]) {
+    newArray[i] = array[i] + `!!!`;
   }
   return newArray;
 }
